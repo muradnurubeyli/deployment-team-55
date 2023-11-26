@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zPWEAHh_)
 
-# Project Name: Basic Landing Website
+# Project Name: 4U Landing Website
 
 ## Overview
 This is a simple landing website built using HTML, CSS, and JavaScript. The project is responsive and adheres to a standard website structure, including a navbar, header, main content, and footer. The website showcases information about team members and provides details about specific homework assignments.
