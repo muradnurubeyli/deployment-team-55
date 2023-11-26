@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | 4U</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="big-wrapper light">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="./media/logo.png" alt="Logo" />
+            <h3>SITE 1101 - 4U</h3>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="https://www.ada.edu.az/" class="btn">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+
+      <br>
+
+      <div class="about-me-area">
+        <div class="container">
+          <h2 style="margin-bottom: 1rem;">Hour Of Code Event:</h2>
+          <p>
+            <b>Introduction</b>:
+            Team 55 organized and executed a successful Hour of Code event at Sumgait State
+            School No 25 on November 6th. This detailed report delves into the specifics of the event, addressing
+            various aspects such as the activities conducted, participant engagement, progress, preparation,
+            challenges faced, and expressions of gratitude for support.
+            <br>
+            <b> What Happened During the Hour of Code?</b>
+            The Hour of Code at Sumgait State School No 25 was
+            designed to introduce third-grade students to the fundamentals of coding in an interactive and
+            enjoyable manner. The team commenced the event with an introduction to basic coding concepts,
+            explaining algorithms and how programming languages shape the modern world. Following this, the
+            participants were exposed to visuals and videos from past Hour of Code events to illustrate the
+            excitement and creativity associated with coding activities.
+            The main highlight of the event was the hands-on coding experience using the Classic Maze Puzzle.
+            This engaging activity allowed students to collaboratively solve coding challenges, fostering
+            teamwork and problem-solving skills. The event concluded with a motivational note, encouraging
+            students to explore coding further, accompanied by the presentation of certificates to acknowledge
+            their participation.
+            <br>
+            <b>Participant Experience and Progress:</b>
+            The participants, consisting of approximately 20 third-grade
+            students, engaged enthusiastically throughout the Hour of Code. Given the simplicity and relatability
+            of the content, students were able to grasp fundamental coding concepts. The hands-on activity
+            further enhanced their understanding, allowing them to apply theoretical knowledge in a practical
+            setting.
+          </p>
+        </div>
+      </div>
+
+      <div class="team-members-area">
+        <div class="container">
+          <h2>Current Project: </h2>
+          <br>
+          <p>
+            Embarking on a digital journey for SITE 1101's Homework 3, Team 55 presents a website that's more than just
+            code—it's an expression of our creativity, dedication, and exploration of web development.
+            <br>
+            <b>Responsive Design Excellence:</b>
+            Our website seamlessly adapts to various devices, ensuring a user-friendly experience. Through the
+            harmonious blend of HTML, CSS, and JavaScript, we've curated a dynamic and interactive platform. We also
+            added Dark/Light mode to our website
+            <br>
+            <b> Hour of Code Unveiled:</b>
+            At the heart of our creation lies the narrative of our "Hour of Code" event. Explore the essence of coding,
+            discover its impact, and witness the magic we've crafted using fundamental web development languages.
+            <br>
+            <b> Team 55 Unveiled:</b>
+            Dive into the profiles of the minds behind the project. Each team member's unique skills and perspectives
+            contribute to the cohesion and dynamism that define Team 55.
+            <br>
+            <b> Connect with Us:</b>
+            Whether you seek information, wish to provide feedback, or simply want to say hello, our website is a
+            gateway to interaction. Join us on this journey of continuous learning and growth in the vast realm of web
+            development.
+          </p>
+          <br>
+          <h4>Codecademy Profiles:</h4>
+          <br>
+          <ul>
+            <li>
+              <a href="https://www.codecademy.com/profiles/muradSmurfingAtADA" target="_blank">Murad Ismayilov</a>
+            </li>
+            <li>
+              <a href="https://www.codecademy.com/profiles/RaulShovgulu17997" target="_blank">Raul Shovgulu</a>
+            </li>
+            <li>
+              <a href="https://www.codecademy.com/profiles/MaharramovMahammad18146" target="_blank">
+                Mahammad Maharramov
+              </a>
+            </li>
+            <li>
+              <a href="https://www.codecademy.com/profiles/danizkazimova" target="_blank">Daniz Karimova</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery container">
+        <div class="gallery-item" onclick="openModal('./media/1.jpg')">
+          <img src="./media/1.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item" onclick="openModal('./media/2.jpg')">
+          <img src="./media/2.jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item" onclick="openModal('./media/3.jpg')">
+          <img src="./media/3.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal('./media/4.jpg')">
+          <img src="./media/4.jpg" alt="Image 4">
+        </div>
+      </div>
+
+      <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="modal-content" id="modalImg"></span>
+      </div>
+
+      <br>
+      <br>
+
+      <div style="display: none;" class="bottom-area">
+        <div class="container">
+          <button class="toggle-btn">
+          </button>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="social-media">
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="additional-info">
+              <p>&copy; 2023 Team 55. All Rights Reserved.</p>
+              <p>Designed with ❤️ by Team 55</p>
+            </div>
+
+            <div class="navbar-items">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="https://www.ada.edu.az/">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
